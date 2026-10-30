@@ -11,7 +11,6 @@ import {
   Typography,
 } from '@mui/material';
 import EastRoundedIcon from '@mui/icons-material/EastRounded';
-import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
@@ -20,6 +19,7 @@ import TerminalRoundedIcon from '@mui/icons-material/TerminalRounded';
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 import { portfolioData } from '../data/portfolioData';
 import VisibilityRoundedIcon from '@mui/icons-material/VisibilityRounded';
+
 
 export const Hero: React.FC = () => {
   const { personal, socials } = portfolioData;
