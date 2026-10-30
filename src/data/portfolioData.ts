@@ -97,6 +97,34 @@ export const portfolioData: PortfolioData = {
       icon: '✳',
       statusBadge: 'Live Project',
     },
+
+    {
+      id: 'portfolio-react-mui',
+      number: '02',
+      title: 'New Personal Portfolio Website',
+      category: 'New Personal Portfolio · Web Development',
+      categoryType: 'frontend',
+      description:
+        'A modern and responsive personal portfolio website built to showcase my technical skills, projects, education, and professional experience.',
+      detailedOverview:
+        'A personal portfolio website developed using React, TypeScript, Material UI, and Vite. It features a clean interface, responsive layouts, dark and light themes, and dedicated sections to highlight my professional journey.',
+      features: [
+        'Responsive design for desktop, tablet, and mobile',
+        'Dark and light theme switching',
+        'Dedicated sections for projects, skills, and experience',
+        'Resume preview and download options',
+        'Contact and social media integration',
+      ],
+      challenges:
+        'Building a responsive and reusable UI, managing theme switching, and creating a consistent user experience across different screen sizes.',
+      tech: ['React', 'TypeScript', 'Material UI', 'Vite', 'CSS'],
+      github: 'https://github.com/rishabh7275/-portfolio-react-mui',
+      live: '',
+      previewImage: '/assets/portfolio2.png',
+      icon: '💻',
+      statusBadge: 'Personal Project',
+    },
+
     {
       id: 'gamehub',
       number: '02',

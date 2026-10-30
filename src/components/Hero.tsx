@@ -76,17 +76,6 @@ export const Hero: React.FC = () => {
                   >
                     View Resume
                   </Button>
-
-                  <Button
-                    variant="contained"
-                    component="a"
-                    href={personal.resumeUrl}
-                    download={personal.resumeFileName}
-                    startIcon={<DownloadRoundedIcon />}
-                    size="large"
-                  >
-                    Download Resume
-                  </Button>
                 </>
               )}
 
